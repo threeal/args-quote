@@ -1,17 +1,19 @@
 {
-  "name": "my_fibonacci",
-  "version": "0.0.0",
-  "description": "A sample Node.js project",
+  "name": "args-quote",
+  "version": "0.1.0",
+  "description": "Parse and stringify command-line arguments with proper quoting",
   "keywords": [
-    "sample",
-    "fibonacci"
+    "arguments",
+    "quote",
+    "parse",
+    "stringify"
   ],
-  "homepage": "https://github.com/threeal/nodejs-starter#readme",
+  "homepage": "https://github.com/threeal/args-quote#readme",
   "bugs": {
-    "url": "https://github.com/threeal/nodejs-starter/issues",
+    "url": "https://github.com/threeal/args-quote/issues",
     "email": "alfi.maulana.f@gmail.com"
   },
-  "repository": "github:threeal/nodejs-starter",
+  "repository": "github:threeal/args-quote",
   "license": "MIT",
   "author": "Alfi Maulana <alfi.maulana.f@gmail.com>",
   "type": "module",
