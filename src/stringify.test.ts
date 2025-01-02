@@ -1,3 +1,4 @@
+import { expect, it } from "vitest";
 import { stringify } from "./stringify";
 
 it("should stringify the arguments", () => {
