@@ -9,19 +9,19 @@ importers:
   .:
     devDependencies:
       '@eslint/js':
-        specifier: ^9.27.0
+        specifier: ^9.28.0
         version: 9.28.0
       '@tsconfig/node24':
         specifier: ^24.0.1
         version: 24.0.1
       '@types/node':
-        specifier: ^22.15.21
+        specifier: ^22.15.29
         version: 22.15.29
       '@vitest/coverage-v8':
-        specifier: ^3.0.7
+        specifier: ^3.2.0
         version: 3.2.0(vitest@3.2.0(@types/node@22.15.29))
       eslint:
-        specifier: ^9.27.0
+        specifier: ^9.28.0
         version: 9.28.0
       lefthook:
         specifier: ^1.11.13
@@ -1049,11 +1049,6 @@ packages:
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
-
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
-    engines: {node: '>=10'}
-    hasBin: true
 
   semver@7.7.2:
     resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
@@ -2102,7 +2097,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   merge2@1.4.1: {}
 
@@ -2216,8 +2211,6 @@ snapshots:
   run-parallel@1.2.0:
     dependencies:
       queue-microtask: 1.2.3
-
-  semver@7.7.1: {}
 
   semver@7.7.2: {}
 
