@@ -1,5 +1,4 @@
 const whitespaceRegex = /\s/;
-const doubleQuoteRegex = /"/;
 
 /**
  * Converts a list of arguments into a space-separated string.
@@ -15,7 +14,7 @@ export function stringify(args: string[]): string {
   return args
     .map((arg) =>
       whitespaceRegex.test(arg)
-        ? doubleQuoteRegex.test(arg)
+        ? arg.includes('"')
           ? `\`${arg}\``
           : `"${arg}"`
         : arg,
