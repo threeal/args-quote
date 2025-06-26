@@ -12,7 +12,15 @@ export function parse(str: string): string[] {
   const args: string[] = [];
   let match: RegExpExecArray | null;
   while ((match = regex.exec(str)) !== null) {
-    args.push(match[1] ?? match[2] ?? match[3] ?? match[4]);
+    if (match[1]) {
+      args.push(match[1]);
+    } else if (match[2]) {
+      args.push(match[2]);
+    } else if (match[3]) {
+      args.push(match[3]);
+    } else if (match[4]) {
+      args.push(match[4]);
+    }
   }
   return args;
 }
