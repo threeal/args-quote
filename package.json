@@ -30,7 +30,7 @@
     "@eslint/js": "^10.0.1",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^26.1.1",
-    "@vitest/coverage-v8": "^4.1.9",
+    "@vitest/coverage-v8": "^5.0.1",
     "eslint": "^10.8.1",
     "jiti": "^2.7.0",
     "lefthook": "^2.1.9",
@@ -38,7 +38,7 @@
     "prettier-plugin-organize-imports": "^4.3.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.70.0",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.1"
   },
   "devEngines": {
     "runtime": {
